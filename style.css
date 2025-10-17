@@ -1,6 +1,47 @@
 /* targets the body tag <body.*/
+/*CSS reset*/
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* this is a comment in css*/
 body{
-    background-color: #8a8585;
+    background-color: #c0e5bb;
+    font-family:  "BBH Sans Hegarty",Arial, Helvetica, sans-serif;
+    line-height: 1.5; /*1.5 line spacing */
+    color: #ac89d7;
+    text-align: center;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family:  "BBH Sans Bogle", sans-serif;
+    margin-bottom: 0.5em; /* em -scales on font size*/
+    /* if the font size is 40px, 0.5em is 28px */
+padding: 0.5em;
+color: black;
+border-style: solid;
+border-width: 20px;
+
+}
+section
+{
+    background-color: #dd9898;
+    color: #c0e5bb;
+    margin: 5em;
+    padding: 2em;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #d65da6;
+    border-radius: 10px;
+}
+nav
+{ 
+    padding: 1em;
+    font-weight: bold;
+}
+nav a{/* targets all links in the nav*/
+    color: black;
+}
+
