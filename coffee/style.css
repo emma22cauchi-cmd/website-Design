@@ -210,3 +210,20 @@ box-shadow:var(--shadow-dark);
 .swatch .swatch-name{
     text-align: center;
 }
+ 
+
+/************************************* TEXT ********************************/
+.line-2
+{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+
+
+   
+    height: 3em;
+    overflow: clip;
+    text-overflow: ellipsis;
+
+}
